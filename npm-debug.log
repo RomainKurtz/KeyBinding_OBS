@@ -1,0 +1,761 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'iohook' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData iohook
+8 silly fetchNamedPackageData iohook
+9 silly mapToRegistry name iohook
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'iohook',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'iohook',
+12 silly mapToRegistry   name: 'iohook',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/iohook
+14 verbose request uri https://registry.npmjs.org/iohook
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 3:03:58 PM
+17 verbose request id fc6deac447b33bf1
+18 verbose etag W/"59660897-71fa"
+19 verbose lastModified Wed, 12 Jul 2017 11:31:35 GMT
+20 http request GET https://registry.npmjs.org/iohook
+21 http 304 https://registry.npmjs.org/iohook
+22 verbose headers { date: 'Sun, 06 Aug 2017 13:02:48 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"59660897-71fa"',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-cdg8721-CDG',
+22 verbose headers   'x-cache': 'MISS',
+22 verbose headers   'x-cache-hits': '0',
+22 verbose headers   'x-timer': 'S1502024569.856495,VS0,VE17',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 06 Aug 2017 13:02:48 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"59660897-71fa"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-cdg8721-CDG',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1502024569.856495,VS0,VE17',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/iohook from cache
+25 verbose get saving iohook to C:\Users\rkurtz\AppData\Roaming\npm-cache\registry.npmjs.org\iohook\.cache.json
+26 verbose correctMkdir C:\Users\rkurtz\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule iohook@0.1.9 checking installable status
+40 silly cache add args [ 'iohook', null ]
+41 verbose cache add spec iohook
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'iohook',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'iohook',
+42 silly cache add   name: 'iohook',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed iohook@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for iohook
+45 info addNameTag [ 'iohook', 'latest' ]
+46 silly mapToRegistry name iohook
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'iohook',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'iohook',
+49 silly mapToRegistry   name: 'iohook',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/iohook
+51 verbose addNameTag registry:https://registry.npmjs.org/iohook not in flight; fetching
+52 verbose get https://registry.npmjs.org/iohook not expired, no request
+53 silly addNameTag next cb for iohook with tag latest
+54 silly addNamed iohook@0.1.9
+55 verbose addNamed "0.1.9" is a plain semver version for iohook
+56 silly cache afterAdd iohook@0.1.9
+57 verbose afterAdd C:\Users\rkurtz\AppData\Roaming\npm-cache\iohook\0.1.9\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\rkurtz\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\rkurtz\AppData\Roaming\npm-cache\iohook\0.1.9\package\package.json written
+60 silly fetchNamedPackageData segfault-handler
+61 silly mapToRegistry name segfault-handler
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'segfault-handler',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'segfault-handler',
+64 silly mapToRegistry   name: 'segfault-handler',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/segfault-handler
+66 verbose request uri https://registry.npmjs.org/segfault-handler
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 3:03:59 PM
+69 verbose etag W/"5973e448-2f7e"
+70 verbose lastModified Sat, 22 Jul 2017 23:48:24 GMT
+71 http request GET https://registry.npmjs.org/segfault-handler
+72 http 304 https://registry.npmjs.org/segfault-handler
+73 verbose headers { date: 'Sun, 06 Aug 2017 13:02:49 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   etag: 'W/"5973e448-2f7e"',
+73 verbose headers   age: '0',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-cdg8721-CDG',
+73 verbose headers   'x-cache': 'MISS',
+73 verbose headers   'x-cache-hits': '0',
+73 verbose headers   'x-timer': 'S1502024569.151163,VS0,VE16',
+73 verbose headers   vary: 'Accept-Encoding, Accept' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Sun, 06 Aug 2017 13:02:49 GMT',
+74 silly get     via: '1.1 varnish',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     etag: 'W/"5973e448-2f7e"',
+74 silly get     age: '0',
+74 silly get     connection: 'keep-alive',
+74 silly get     'x-served-by': 'cache-cdg8721-CDG',
+74 silly get     'x-cache': 'MISS',
+74 silly get     'x-cache-hits': '0',
+74 silly get     'x-timer': 'S1502024569.151163,VS0,VE16',
+74 silly get     vary: 'Accept-Encoding, Accept' } ]
+75 verbose etag https://registry.npmjs.org/segfault-handler from cache
+76 verbose get saving segfault-handler to C:\Users\rkurtz\AppData\Roaming\npm-cache\registry.npmjs.org\segfault-handler\.cache.json
+77 verbose correctMkdir C:\Users\rkurtz\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+78 silly resolveWithNewModule segfault-handler@1.0.0 checking installable status
+79 silly cache add args [ 'segfault-handler@^1.0.0', null ]
+80 verbose cache add spec segfault-handler@^1.0.0
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'segfault-handler@^1.0.0',
+81 silly cache add   scope: null,
+81 silly cache add   escapedName: 'segfault-handler',
+81 silly cache add   name: 'segfault-handler',
+81 silly cache add   rawSpec: '^1.0.0',
+81 silly cache add   spec: '>=1.0.0 <2.0.0',
+81 silly cache add   type: 'range' }
+82 silly addNamed segfault-handler@>=1.0.0 <2.0.0
+83 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for segfault-handler
+84 silly addNameRange { name: 'segfault-handler',
+84 silly addNameRange   range: '>=1.0.0 <2.0.0',
+84 silly addNameRange   hasData: false }
+85 silly mapToRegistry name segfault-handler
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'segfault-handler',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'segfault-handler',
+88 silly mapToRegistry   name: 'segfault-handler',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/segfault-handler
+90 verbose addNameRange registry:https://registry.npmjs.org/segfault-handler not in flight; fetching
+91 verbose get https://registry.npmjs.org/segfault-handler not expired, no request
+92 silly addNameRange number 2 { name: 'segfault-handler',
+92 silly addNameRange   range: '>=1.0.0 <2.0.0',
+92 silly addNameRange   hasData: true }
+93 silly addNameRange versions [ 'segfault-handler',
+93 silly addNameRange   [ '0.2.1', '0.2.2', '0.2.3', '0.2.4', '0.2.5', '1.0.0' ] ]
+94 silly addNamed segfault-handler@1.0.0
+95 verbose addNamed "1.0.0" is a plain semver version for segfault-handler
+96 silly cache afterAdd segfault-handler@1.0.0
+97 verbose afterAdd C:\Users\rkurtz\AppData\Roaming\npm-cache\segfault-handler\1.0.0\package\package.json not in flight; writing
+98 verbose correctMkdir C:\Users\rkurtz\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+99 verbose afterAdd C:\Users\rkurtz\AppData\Roaming\npm-cache\segfault-handler\1.0.0\package\package.json written
+100 silly loadAllDepsIntoIdealTree Finishing
+101 silly loadIdealTree Finishing
+102 silly currentTree proto_node_keybinding
+102 silly currentTree +-- abbrev@1.1.0
+102 silly currentTree +-- ajv@4.11.8
+102 silly currentTree +-- amdefine@1.0.1
+102 silly currentTree +-- ansi-regex@2.1.1
+102 silly currentTree +-- ansi@0.3.1
+102 silly currentTree +-- are-we-there-yet@1.0.6
+102 silly currentTree +-- asn1@0.2.3
+102 silly currentTree +-- assert-plus@0.2.0
+102 silly currentTree +-- asynckit@0.4.0
+102 silly currentTree +-- aws-sign2@0.6.0
+102 silly currentTree +-- aws4@1.6.0
+102 silly currentTree +-- balanced-match@1.0.0
+102 silly currentTree +-- bcrypt-pbkdf@1.0.1
+102 silly currentTree +-- binary@0.3.0
+102 silly currentTree +-- bindings@1.3.0
+102 silly currentTree +-- bl@1.2.1
+102 silly currentTree +-- bluebird@2.11.0
+102 silly currentTree +-- boom@2.10.1
+102 silly currentTree +-- brace-expansion@1.1.8
+102 silly currentTree +-- buffers@0.1.1
+102 silly currentTree +-- camelcase@2.1.1
+102 silly currentTree +-- caseless@0.12.0
+102 silly currentTree +-- chainsaw@0.1.0
+102 silly currentTree +-- chownr@1.0.1
+102 silly currentTree +-- cliui@3.2.0
+102 silly currentTree +-- cmake-js@3.5.0
+102 silly currentTree +-- co@4.6.0
+102 silly currentTree +-- code-point-at@1.1.0
+102 silly currentTree +-- combined-stream@1.0.5
+102 silly currentTree +-- commander@2.9.0
+102 silly currentTree +-- concat-map@0.0.1
+102 silly currentTree +-- config-chain@1.1.11
+102 silly currentTree +-- core-util-is@1.0.2
+102 silly currentTree +-- cryptiles@2.0.5
+102 silly currentTree +-- dashdash@1.14.1
+102 silly currentTree | `-- assert-plus@1.0.0
+102 silly currentTree +-- debug@2.6.8
+102 silly currentTree +-- decamelize@1.2.0
+102 silly currentTree +-- delayed-stream@1.0.0
+102 silly currentTree +-- delegates@1.0.0
+102 silly currentTree +-- ecc-jsbn@0.1.1
+102 silly currentTree +-- end-of-stream@1.4.0
+102 silly currentTree +-- extend@3.0.1
+102 silly currentTree +-- extsprintf@1.3.0
+102 silly currentTree +-- forever-agent@0.6.1
+102 silly currentTree +-- form-data@2.1.4
+102 silly currentTree +-- fs-extra@1.0.0
+102 silly currentTree +-- fs.realpath@1.0.0
+102 silly currentTree +-- fstream@0.1.31
+102 silly currentTree | `-- graceful-fs@3.0.11
+102 silly currentTree +-- gauge@1.2.7
+102 silly currentTree +-- getpass@0.1.7
+102 silly currentTree | `-- assert-plus@1.0.0
+102 silly currentTree +-- glob@5.0.15
+102 silly currentTree +-- graceful-fs@4.1.11
+102 silly currentTree +-- graceful-readlink@1.0.1
+102 silly currentTree +-- har-schema@1.0.5
+102 silly currentTree +-- har-validator@4.2.1
+102 silly currentTree +-- has-unicode@2.0.1
+102 silly currentTree +-- hawk@3.1.3
+102 silly currentTree +-- hoek@2.16.3
+102 silly currentTree +-- http-signature@1.1.1
+102 silly currentTree +-- inflight@1.0.6
+102 silly currentTree +-- inherits@2.0.3
+102 silly currentTree +-- ini@1.3.4
+102 silly currentTree +-- invert-kv@1.0.0
+102 silly currentTree +-- is-fullwidth-code-point@1.0.0
+102 silly currentTree +-- is-iojs@1.1.0
+102 silly currentTree +-- is-typedarray@1.0.0
+102 silly currentTree +-- isarray@1.0.0
+102 silly currentTree +-- isexe@2.0.0
+102 silly currentTree +-- isstream@0.1.2
+102 silly currentTree +-- jsbn@0.1.1
+102 silly currentTree +-- json-schema@0.2.3
+102 silly currentTree +-- json-stable-stringify@1.0.1
+102 silly currentTree +-- json-stringify-safe@5.0.1
+102 silly currentTree +-- jsonfile@2.4.0
+102 silly currentTree +-- jsonify@0.0.0
+102 silly currentTree +-- jsprim@1.4.1
+102 silly currentTree | `-- assert-plus@1.0.0
+102 silly currentTree +-- keypress@0.2.1
+102 silly currentTree +-- klaw@1.3.1
+102 silly currentTree +-- lcid@1.0.0
+102 silly currentTree +-- lodash.pad@4.5.1
+102 silly currentTree +-- lodash.padend@4.6.1
+102 silly currentTree +-- lodash.padstart@4.6.1
+102 silly currentTree +-- lodash@3.10.1
+102 silly currentTree +-- match-stream@0.0.2
+102 silly currentTree | +-- isarray@0.0.1
+102 silly currentTree | +-- readable-stream@1.0.34
+102 silly currentTree | `-- string_decoder@0.10.31
+102 silly currentTree +-- memory-stream@0.0.3
+102 silly currentTree | +-- isarray@0.0.1
+102 silly currentTree | +-- readable-stream@1.0.34
+102 silly currentTree | `-- string_decoder@0.10.31
+102 silly currentTree +-- mime-db@1.29.0
+102 silly currentTree +-- mime-types@2.1.16
+102 silly currentTree +-- minimatch@3.0.4
+102 silly currentTree +-- minimist@0.0.8
+102 silly currentTree +-- minipass@2.2.1
+102 silly currentTree +-- minizlib@1.0.3
+102 silly currentTree +-- mkdirp@0.5.1
+102 silly currentTree +-- ms@2.0.0
+102 silly currentTree +-- nan@2.6.2
+102 silly currentTree +-- natives@1.1.0
+102 silly currentTree +-- node-abi@2.1.0
+102 silly currentTree +-- nopt@3.0.6
+102 silly currentTree +-- npmconf@2.1.2
+102 silly currentTree | +-- once@1.3.3
+102 silly currentTree | `-- semver@4.3.6
+102 silly currentTree +-- npmlog@1.2.1
+102 silly currentTree +-- number-is-nan@1.0.1
+102 silly currentTree +-- oauth-sign@0.8.2
+102 silly currentTree +-- once@1.4.0
+102 silly currentTree +-- os-homedir@1.0.2
+102 silly currentTree +-- os-locale@1.4.0
+102 silly currentTree +-- os-tmpdir@1.0.2
+102 silly currentTree +-- osenv@0.1.4
+102 silly currentTree +-- over@0.0.5
+102 silly currentTree +-- path-is-absolute@1.0.1
+102 silly currentTree +-- performance-now@0.2.0
+102 silly currentTree +-- process-nextick-args@1.0.7
+102 silly currentTree +-- proto-list@1.2.4
+102 silly currentTree +-- pullstream@0.4.1
+102 silly currentTree | +-- isarray@0.0.1
+102 silly currentTree | +-- readable-stream@1.0.34
+102 silly currentTree | `-- string_decoder@0.10.31
+102 silly currentTree +-- pump@1.0.2
+102 silly currentTree +-- punycode@1.4.1
+102 silly currentTree +-- qs@6.4.0
+102 silly currentTree +-- readable-stream@2.3.3
+102 silly currentTree +-- request@2.81.0
+102 silly currentTree +-- rimraf@2.6.1
+102 silly currentTree | `-- glob@7.1.2
+102 silly currentTree +-- rsvp@3.6.2
+102 silly currentTree +-- safe-buffer@5.1.1
+102 silly currentTree +-- semver@5.4.1
+102 silly currentTree +-- setimmediate@1.0.5
+102 silly currentTree +-- simple-concat@1.0.0
+102 silly currentTree +-- simple-get@2.6.0
+102 silly currentTree +-- slice-stream@1.0.0
+102 silly currentTree | +-- isarray@0.0.1
+102 silly currentTree | +-- readable-stream@1.0.34
+102 silly currentTree | `-- string_decoder@0.10.31
+102 silly currentTree +-- sntp@1.0.9
+102 silly currentTree +-- source-map-support@0.2.10
+102 silly currentTree +-- source-map@0.1.32
+102 silly currentTree +-- splitargs@0.0.7
+102 silly currentTree +-- sshpk@1.13.1
+102 silly currentTree | `-- assert-plus@1.0.0
+102 silly currentTree +-- string_decoder@1.0.3
+102 silly currentTree +-- string-width@1.0.2
+102 silly currentTree +-- stringstream@0.0.5
+102 silly currentTree +-- strip-ansi@3.0.1
+102 silly currentTree +-- tar-fs@1.15.3
+102 silly currentTree +-- tar-stream@1.5.4
+102 silly currentTree +-- tar@3.1.9
+102 silly currentTree +-- tough-cookie@2.3.2
+102 silly currentTree +-- traceur@0.0.111
+102 silly currentTree | `-- semver@4.3.6
+102 silly currentTree +-- traverse@0.3.9
+102 silly currentTree +-- tunnel-agent@0.6.0
+102 silly currentTree +-- tweetnacl@0.14.5
+102 silly currentTree +-- uid-number@0.0.5
+102 silly currentTree +-- unzip-response@2.0.1
+102 silly currentTree +-- unzip@0.1.11
+102 silly currentTree | +-- isarray@0.0.1
+102 silly currentTree | +-- readable-stream@1.0.34
+102 silly currentTree | `-- string_decoder@0.10.31
+102 silly currentTree +-- url-join@0.0.1
+102 silly currentTree +-- util-deprecate@1.0.2
+102 silly currentTree +-- uuid@3.1.0
+102 silly currentTree +-- verror@1.10.0
+102 silly currentTree | `-- assert-plus@1.0.0
+102 silly currentTree +-- which@1.3.0
+102 silly currentTree +-- window-size@0.1.4
+102 silly currentTree +-- wrap-ansi@2.1.0
+102 silly currentTree +-- wrappy@1.0.2
+102 silly currentTree +-- xtend@4.0.1
+102 silly currentTree +-- y18n@3.2.1
+102 silly currentTree +-- yallist@3.0.2
+102 silly currentTree `-- yargs@3.32.0
+103 silly idealTree proto_node_keybinding
+103 silly idealTree +-- abbrev@1.1.0
+103 silly idealTree +-- ajv@4.11.8
+103 silly idealTree +-- amdefine@1.0.1
+103 silly idealTree +-- ansi-regex@2.1.1
+103 silly idealTree +-- ansi@0.3.1
+103 silly idealTree +-- are-we-there-yet@1.0.6
+103 silly idealTree +-- asn1@0.2.3
+103 silly idealTree +-- assert-plus@0.2.0
+103 silly idealTree +-- asynckit@0.4.0
+103 silly idealTree +-- aws-sign2@0.6.0
+103 silly idealTree +-- aws4@1.6.0
+103 silly idealTree +-- balanced-match@1.0.0
+103 silly idealTree +-- bcrypt-pbkdf@1.0.1
+103 silly idealTree +-- binary@0.3.0
+103 silly idealTree +-- bindings@1.3.0
+103 silly idealTree +-- bl@1.2.1
+103 silly idealTree +-- bluebird@2.11.0
+103 silly idealTree +-- boom@2.10.1
+103 silly idealTree +-- brace-expansion@1.1.8
+103 silly idealTree +-- buffers@0.1.1
+103 silly idealTree +-- camelcase@2.1.1
+103 silly idealTree +-- caseless@0.12.0
+103 silly idealTree +-- chainsaw@0.1.0
+103 silly idealTree +-- chownr@1.0.1
+103 silly idealTree +-- cliui@3.2.0
+103 silly idealTree +-- cmake-js@3.5.0
+103 silly idealTree +-- co@4.6.0
+103 silly idealTree +-- code-point-at@1.1.0
+103 silly idealTree +-- combined-stream@1.0.5
+103 silly idealTree +-- commander@2.9.0
+103 silly idealTree +-- concat-map@0.0.1
+103 silly idealTree +-- config-chain@1.1.11
+103 silly idealTree +-- core-util-is@1.0.2
+103 silly idealTree +-- cryptiles@2.0.5
+103 silly idealTree +-- dashdash@1.14.1
+103 silly idealTree | `-- assert-plus@1.0.0
+103 silly idealTree +-- debug@2.6.8
+103 silly idealTree +-- decamelize@1.2.0
+103 silly idealTree +-- delayed-stream@1.0.0
+103 silly idealTree +-- delegates@1.0.0
+103 silly idealTree +-- ecc-jsbn@0.1.1
+103 silly idealTree +-- end-of-stream@1.4.0
+103 silly idealTree +-- extend@3.0.1
+103 silly idealTree +-- extsprintf@1.3.0
+103 silly idealTree +-- forever-agent@0.6.1
+103 silly idealTree +-- form-data@2.1.4
+103 silly idealTree +-- fs-extra@1.0.0
+103 silly idealTree +-- fs.realpath@1.0.0
+103 silly idealTree +-- fstream@0.1.31
+103 silly idealTree | `-- graceful-fs@3.0.11
+103 silly idealTree +-- gauge@1.2.7
+103 silly idealTree +-- getpass@0.1.7
+103 silly idealTree | `-- assert-plus@1.0.0
+103 silly idealTree +-- glob@5.0.15
+103 silly idealTree +-- graceful-fs@4.1.11
+103 silly idealTree +-- graceful-readlink@1.0.1
+103 silly idealTree +-- har-schema@1.0.5
+103 silly idealTree +-- har-validator@4.2.1
+103 silly idealTree +-- has-unicode@2.0.1
+103 silly idealTree +-- hawk@3.1.3
+103 silly idealTree +-- hoek@2.16.3
+103 silly idealTree +-- http-signature@1.1.1
+103 silly idealTree +-- inflight@1.0.6
+103 silly idealTree +-- inherits@2.0.3
+103 silly idealTree +-- ini@1.3.4
+103 silly idealTree +-- invert-kv@1.0.0
+103 silly idealTree +-- iohook@0.1.9
+103 silly idealTree +-- is-fullwidth-code-point@1.0.0
+103 silly idealTree +-- is-iojs@1.1.0
+103 silly idealTree +-- is-typedarray@1.0.0
+103 silly idealTree +-- isarray@1.0.0
+103 silly idealTree +-- isexe@2.0.0
+103 silly idealTree +-- isstream@0.1.2
+103 silly idealTree +-- jsbn@0.1.1
+103 silly idealTree +-- json-schema@0.2.3
+103 silly idealTree +-- json-stable-stringify@1.0.1
+103 silly idealTree +-- json-stringify-safe@5.0.1
+103 silly idealTree +-- jsonfile@2.4.0
+103 silly idealTree +-- jsonify@0.0.0
+103 silly idealTree +-- jsprim@1.4.1
+103 silly idealTree | `-- assert-plus@1.0.0
+103 silly idealTree +-- keypress@0.2.1
+103 silly idealTree +-- klaw@1.3.1
+103 silly idealTree +-- lcid@1.0.0
+103 silly idealTree +-- lodash.pad@4.5.1
+103 silly idealTree +-- lodash.padend@4.6.1
+103 silly idealTree +-- lodash.padstart@4.6.1
+103 silly idealTree +-- lodash@3.10.1
+103 silly idealTree +-- match-stream@0.0.2
+103 silly idealTree | +-- isarray@0.0.1
+103 silly idealTree | +-- readable-stream@1.0.34
+103 silly idealTree | `-- string_decoder@0.10.31
+103 silly idealTree +-- memory-stream@0.0.3
+103 silly idealTree | +-- isarray@0.0.1
+103 silly idealTree | +-- readable-stream@1.0.34
+103 silly idealTree | `-- string_decoder@0.10.31
+103 silly idealTree +-- mime-db@1.29.0
+103 silly idealTree +-- mime-types@2.1.16
+103 silly idealTree +-- minimatch@3.0.4
+103 silly idealTree +-- minimist@0.0.8
+103 silly idealTree +-- minipass@2.2.1
+103 silly idealTree +-- minizlib@1.0.3
+103 silly idealTree +-- mkdirp@0.5.1
+103 silly idealTree +-- ms@2.0.0
+103 silly idealTree +-- nan@2.6.2
+103 silly idealTree +-- natives@1.1.0
+103 silly idealTree +-- node-abi@2.1.0
+103 silly idealTree +-- nopt@3.0.6
+103 silly idealTree +-- npmconf@2.1.2
+103 silly idealTree | +-- once@1.3.3
+103 silly idealTree | `-- semver@4.3.6
+103 silly idealTree +-- npmlog@1.2.1
+103 silly idealTree +-- number-is-nan@1.0.1
+103 silly idealTree +-- oauth-sign@0.8.2
+103 silly idealTree +-- once@1.4.0
+103 silly idealTree +-- os-homedir@1.0.2
+103 silly idealTree +-- os-locale@1.4.0
+103 silly idealTree +-- os-tmpdir@1.0.2
+103 silly idealTree +-- osenv@0.1.4
+103 silly idealTree +-- over@0.0.5
+103 silly idealTree +-- path-is-absolute@1.0.1
+103 silly idealTree +-- performance-now@0.2.0
+103 silly idealTree +-- process-nextick-args@1.0.7
+103 silly idealTree +-- proto-list@1.2.4
+103 silly idealTree +-- pullstream@0.4.1
+103 silly idealTree | +-- isarray@0.0.1
+103 silly idealTree | +-- readable-stream@1.0.34
+103 silly idealTree | `-- string_decoder@0.10.31
+103 silly idealTree +-- pump@1.0.2
+103 silly idealTree +-- punycode@1.4.1
+103 silly idealTree +-- qs@6.4.0
+103 silly idealTree +-- readable-stream@2.3.3
+103 silly idealTree +-- request@2.81.0
+103 silly idealTree +-- rimraf@2.6.1
+103 silly idealTree | `-- glob@7.1.2
+103 silly idealTree +-- rsvp@3.6.2
+103 silly idealTree +-- safe-buffer@5.1.1
+103 silly idealTree +-- segfault-handler@1.0.0
+103 silly idealTree +-- semver@5.4.1
+103 silly idealTree +-- setimmediate@1.0.5
+103 silly idealTree +-- simple-concat@1.0.0
+103 silly idealTree +-- simple-get@2.6.0
+103 silly idealTree +-- slice-stream@1.0.0
+103 silly idealTree | +-- isarray@0.0.1
+103 silly idealTree | +-- readable-stream@1.0.34
+103 silly idealTree | `-- string_decoder@0.10.31
+103 silly idealTree +-- sntp@1.0.9
+103 silly idealTree +-- source-map-support@0.2.10
+103 silly idealTree +-- source-map@0.1.32
+103 silly idealTree +-- splitargs@0.0.7
+103 silly idealTree +-- sshpk@1.13.1
+103 silly idealTree | `-- assert-plus@1.0.0
+103 silly idealTree +-- string_decoder@1.0.3
+103 silly idealTree +-- string-width@1.0.2
+103 silly idealTree +-- stringstream@0.0.5
+103 silly idealTree +-- strip-ansi@3.0.1
+103 silly idealTree +-- tar-fs@1.15.3
+103 silly idealTree +-- tar-stream@1.5.4
+103 silly idealTree +-- tar@3.1.9
+103 silly idealTree +-- tough-cookie@2.3.2
+103 silly idealTree +-- traceur@0.0.111
+103 silly idealTree | `-- semver@4.3.6
+103 silly idealTree +-- traverse@0.3.9
+103 silly idealTree +-- tunnel-agent@0.6.0
+103 silly idealTree +-- tweetnacl@0.14.5
+103 silly idealTree +-- uid-number@0.0.5
+103 silly idealTree +-- unzip-response@2.0.1
+103 silly idealTree +-- unzip@0.1.11
+103 silly idealTree | +-- isarray@0.0.1
+103 silly idealTree | +-- readable-stream@1.0.34
+103 silly idealTree | `-- string_decoder@0.10.31
+103 silly idealTree +-- url-join@0.0.1
+103 silly idealTree +-- util-deprecate@1.0.2
+103 silly idealTree +-- uuid@3.1.0
+103 silly idealTree +-- verror@1.10.0
+103 silly idealTree | `-- assert-plus@1.0.0
+103 silly idealTree +-- which@1.3.0
+103 silly idealTree +-- window-size@0.1.4
+103 silly idealTree +-- wrap-ansi@2.1.0
+103 silly idealTree +-- wrappy@1.0.2
+103 silly idealTree +-- xtend@4.0.1
+103 silly idealTree +-- y18n@3.2.1
+103 silly idealTree +-- yallist@3.0.2
+103 silly idealTree `-- yargs@3.32.0
+104 silly generateActionsToTake Starting
+105 silly install generateActionsToTake
+106 silly generateActionsToTake Finishing
+107 silly diffTrees action count 2
+108 silly diffTrees add segfault-handler@1.0.0
+109 silly diffTrees add iohook@0.1.9
+110 silly decomposeActions action count 16
+111 silly decomposeActions fetch segfault-handler@1.0.0
+112 silly decomposeActions extract segfault-handler@1.0.0
+113 silly decomposeActions test segfault-handler@1.0.0
+114 silly decomposeActions preinstall segfault-handler@1.0.0
+115 silly decomposeActions build segfault-handler@1.0.0
+116 silly decomposeActions install segfault-handler@1.0.0
+117 silly decomposeActions postinstall segfault-handler@1.0.0
+118 silly decomposeActions finalize segfault-handler@1.0.0
+119 silly decomposeActions fetch iohook@0.1.9
+120 silly decomposeActions extract iohook@0.1.9
+121 silly decomposeActions test iohook@0.1.9
+122 silly decomposeActions preinstall iohook@0.1.9
+123 silly decomposeActions build iohook@0.1.9
+124 silly decomposeActions install iohook@0.1.9
+125 silly decomposeActions postinstall iohook@0.1.9
+126 silly decomposeActions finalize iohook@0.1.9
+127 silly runTopLevelLifecycles Starting
+128 silly executeActions Starting
+129 silly install executeActions
+130 silly doSerial global-install 0
+131 silly doParallel fetch 2
+132 verbose correctMkdir C:\Users\rkurtz\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+133 verbose lock using C:\Users\rkurtz\AppData\Roaming\npm-cache\_locks\staging-6b93582381c4df62.lock for C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging
+134 silly doParallel extract 2
+135 silly extract segfault-handler@1.0.0
+136 silly extract iohook@0.1.9
+137 verbose unbuild node_modules\.staging\segfault-handler-2a6e6145
+138 verbose unbuild node_modules\.staging\iohook-38e52075
+139 silly gentlyRm C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145 is being purged from base C:\Users\rkurtz\Desktop\proto_node_keybinding
+140 verbose gentlyRm don't care about contents; nuking C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145
+141 silly gentlyRm C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075 is being purged from base C:\Users\rkurtz\Desktop\proto_node_keybinding
+142 verbose gentlyRm don't care about contents; nuking C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075
+143 verbose tar unpack C:\Users\rkurtz\AppData\Roaming\npm-cache\segfault-handler\1.0.0\package.tgz
+144 verbose tar unpacking to C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145
+145 silly gentlyRm C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145 is being purged
+146 verbose gentlyRm don't care about contents; nuking C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145
+147 verbose tar unpack C:\Users\rkurtz\AppData\Roaming\npm-cache\iohook\0.1.9\package.tgz
+148 verbose tar unpacking to C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075
+149 silly gentlyRm C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075 is being purged
+150 verbose gentlyRm don't care about contents; nuking C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075
+151 silly gunzTarPerm modes [ '777', '666' ]
+152 silly gunzTarPerm modes [ '777', '666' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+156 silly gunzTarPerm extractEntry .npmignore
+157 silly gunzTarPerm extractEntry README.md
+158 silly gunzTarPerm extractEntry .npmignore
+159 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+160 silly gunzTarPerm extractEntry README.md
+161 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+162 silly gunzTarPerm extractEntry example.js
+163 silly gunzTarPerm extractEntry index.js
+164 silly gunzTarPerm extractEntry LICENSE
+165 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+166 silly gunzTarPerm extractEntry support.js
+167 silly gunzTarPerm modified mode [ 'support.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry install.js
+169 silly gunzTarPerm modified mode [ 'install.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry index.js
+171 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry example.js
+173 silly gunzTarPerm modified mode [ 'example.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry build.js
+175 silly gunzTarPerm modified mode [ 'build.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry .idea/misc.xml
+177 silly gunzTarPerm modified mode [ '.idea/misc.xml', 420, 438 ]
+178 silly gunzTarPerm extractEntry .idea/codeStyleSettings.xml
+179 silly gunzTarPerm modified mode [ '.idea/codeStyleSettings.xml', 420, 438 ]
+180 silly gunzTarPerm extractEntry .idea/iohook.iml
+181 silly gunzTarPerm modified mode [ '.idea/iohook.iml', 420, 438 ]
+182 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+183 silly gunzTarPerm modified mode [ '.idea/jsLibraryMappings.xml', 420, 438 ]
+184 silly gunzTarPerm extractEntry .idea/encodings.xml
+185 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 420, 438 ]
+186 silly gunzTarPerm extractEntry .idea/modules.xml
+187 silly gunzTarPerm modified mode [ '.idea/modules.xml', 420, 438 ]
+188 silly gunzTarPerm extractEntry .idea/serialmonitor_settings.xml
+189 silly gunzTarPerm modified mode [ '.idea/serialmonitor_settings.xml', 420, 438 ]
+190 silly gunzTarPerm extractEntry .idea/vcs.xml
+191 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 420, 438 ]
+192 silly gunzTarPerm extractEntry .idea/watcherTasks.xml
+193 silly gunzTarPerm modified mode [ '.idea/watcherTasks.xml', 420, 438 ]
+194 silly gunzTarPerm extractEntry .idea/workspace.xml
+195 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 420, 438 ]
+196 silly gunzTarPerm extractEntry appveyor.yml
+197 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+198 silly gunzTarPerm extractEntry CMakeLists.txt
+199 silly gunzTarPerm modified mode [ 'CMakeLists.txt', 420, 438 ]
+200 silly gunzTarPerm extractEntry .travis.yml
+201 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+202 silly gunzTarPerm extractEntry src/iohook.cc
+203 silly gunzTarPerm modified mode [ 'src/iohook.cc', 420, 438 ]
+204 silly gunzTarPerm extractEntry src/iohook.h
+205 silly gunzTarPerm modified mode [ 'src/iohook.h', 420, 438 ]
+206 silly gunzTarPerm extractEntry includes/StackWalker.h
+207 silly gunzTarPerm extractEntry Versions.md
+208 silly gunzTarPerm extractEntry binding.gyp
+209 silly gunzTarPerm extractEntry stacktrace-1324759871-67926.log
+210 silly gunzTarPerm extractEntry src/StackWalker.cpp
+211 silly gunzTarPerm extractEntry src/segfault-handler.cpp
+212 silly gunzTarPerm extractEntry stacktrace-1443043538-11880.log
+213 silly gentlyRm C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145\node_modules is being purged
+214 verbose gentlyRm don't care about contents; nuking C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145\node_modules
+215 silly gentlyRm C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075\node_modules is being purged
+216 verbose gentlyRm don't care about contents; nuking C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075\node_modules
+217 silly doParallel preinstall 2
+218 silly preinstall segfault-handler@1.0.0 C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145
+219 info lifecycle segfault-handler@1.0.0~preinstall: segfault-handler@1.0.0
+220 silly preinstall iohook@0.1.9 C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\iohook-38e52075
+221 info lifecycle iohook@0.1.9~preinstall: iohook@0.1.9
+222 silly lifecycle segfault-handler@1.0.0~preinstall: no script for preinstall, continuing
+223 silly lifecycle iohook@0.1.9~preinstall: no script for preinstall, continuing
+224 silly doReverseSerial remove 0
+225 silly doSerial move 0
+226 silly doSerial finalize 2
+227 silly finalize C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\segfault-handler
+228 silly finalize C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\iohook
+229 silly doSerial build 2
+230 silly build segfault-handler@1.0.0
+231 info linkStuff segfault-handler@1.0.0
+232 silly linkStuff segfault-handler@1.0.0 has C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules as its parent node_modules
+233 verbose linkBins segfault-handler@1.0.0
+234 verbose linkMans segfault-handler@1.0.0
+235 silly build iohook@0.1.9
+236 info linkStuff iohook@0.1.9
+237 silly linkStuff iohook@0.1.9 has C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules as its parent node_modules
+238 verbose linkBins iohook@0.1.9
+239 verbose linkMans iohook@0.1.9
+240 silly doSerial global-link 0
+241 silly doParallel update-linked 0
+242 silly doSerial install 2
+243 silly install segfault-handler@1.0.0 C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging\segfault-handler-2a6e6145
+244 info lifecycle segfault-handler@1.0.0~install: segfault-handler@1.0.0
+245 verbose lifecycle segfault-handler@1.0.0~install: unsafe-perm in lifecycle true
+246 verbose lifecycle segfault-handler@1.0.0~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\segfault-handler\node_modules\.bin;C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.bin;C:\Users\rkurtz\Documents\Mes Logiciels\cmder\bin;C:\Users\rkurtz\Documents\Mes Logiciels\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\rkurtz\Documents\Mes Logiciels\cmder\vendor\conemu-maximus5;C:\Users\rkurtz\Documents\Mes Logiciels\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\rkurtz\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\rkurtz\Documents\Mes Logiciels\cmder\
+247 verbose lifecycle segfault-handler@1.0.0~install: CWD: C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\segfault-handler
+248 silly lifecycle segfault-handler@1.0.0~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+249 silly lifecycle segfault-handler@1.0.0~install: Returned: code: 1  signal: null
+250 info lifecycle segfault-handler@1.0.0~install: Failed to exec install script
+251 verbose unlock done using C:\Users\rkurtz\AppData\Roaming\npm-cache\_locks\staging-6b93582381c4df62.lock for C:\Users\rkurtz\Desktop\proto_node_keybinding\node_modules\.staging
+252 silly rollbackFailedOptional Starting
+253 silly rollbackFailedOptional Finishing
+254 silly runTopLevelLifecycles Finishing
+255 silly install printInstalled
+256 warn enoent ENOENT: no such file or directory, open 'C:\Users\rkurtz\Desktop\proto_node_keybinding\package.json'
+257 verbose enoent ENOENT: no such file or directory, open 'C:\Users\rkurtz\Desktop\proto_node_keybinding\package.json'
+257 verbose enoent This is most likely not a problem with npm itself
+257 verbose enoent and is related to npm not being able to find a file.
+258 warn proto_node_keybinding No description
+259 verbose If you need help, you may report this error at:
+259 verbose     <https://github.com/npm/npm/issues>
+260 warn proto_node_keybinding No repository field.
+261 verbose If you need help, you may report this error at:
+261 verbose     <https://github.com/npm/npm/issues>
+262 warn proto_node_keybinding No README data
+263 verbose If you need help, you may report this error at:
+263 verbose     <https://github.com/npm/npm/issues>
+264 warn proto_node_keybinding No license field.
+265 verbose If you need help, you may report this error at:
+265 verbose     <https://github.com/npm/npm/issues>
+266 verbose stack Error: segfault-handler@1.0.0 install: `node-gyp rebuild`
+266 verbose stack Exit status 1
+266 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+266 verbose stack     at emitTwo (events.js:106:13)
+266 verbose stack     at EventEmitter.emit (events.js:191:7)
+266 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+266 verbose stack     at emitTwo (events.js:106:13)
+266 verbose stack     at ChildProcess.emit (events.js:191:7)
+266 verbose stack     at maybeClose (internal/child_process.js:877:16)
+266 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+267 verbose pkgid segfault-handler@1.0.0
+268 verbose cwd C:\Users\rkurtz\Desktop\proto_node_keybinding
+269 error Windows_NT 10.0.10586
+270 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "iohook"
+271 error node v6.9.3
+272 error npm  v3.10.10
+273 error code ELIFECYCLE
+274 error segfault-handler@1.0.0 install: `node-gyp rebuild`
+274 error Exit status 1
+275 error Failed at the segfault-handler@1.0.0 install script 'node-gyp rebuild'.
+275 error Make sure you have the latest version of node.js and npm installed.
+275 error If you do, this is most likely a problem with the segfault-handler package,
+275 error not with npm itself.
+275 error Tell the author that this fails on your system:
+275 error     node-gyp rebuild
+275 error You can get information on how to open an issue for this project with:
+275 error     npm bugs segfault-handler
+275 error Or if that isn't available, you can get their info via:
+275 error     npm owner ls segfault-handler
+275 error There is likely additional logging output above.
+276 verbose exit [ 1, true ]
